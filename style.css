@@ -85,7 +85,7 @@ transition: .5s ease;
 background-color: #FF1493;
 }
 
-. container:hover .overlay {
+. candidate:hover .overlay {
 opacity: 1;
 }
 
