@@ -54,7 +54,7 @@ html {
     background:rgba(0, 0, 0, 0.486);
     color: white;
 }
-.candidate {
+main.candidate {
   padding: 3rem;
   line-height: 2;
 }
