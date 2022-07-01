@@ -55,13 +55,12 @@ html {
     color: white;
 }
 
-.candidates {
+div.candidates {
   padding: 3rem;
   line-height: 2;
   background:white;
-  border: 1px solid white;
-  position: centre;
-
+  display: inline-block;
+  text-align:center;
 }
 
 .candidates img {
