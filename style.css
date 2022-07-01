@@ -72,5 +72,6 @@ html {
 }
 
 .projects img:hover {
-  top: -10px;  
+  height: +10%;
+  width: +10%;
 }
