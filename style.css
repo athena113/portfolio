@@ -72,7 +72,7 @@ html {
 }
 
 
-. overlay {
+.candidates .overlay {
 position: absolute;
 top: 0;
 bottom: 0;
@@ -89,7 +89,7 @@ background-color: #FF1493;
 opacity: 1;
 }
 
-.overlaytext {
+.candidates .overlaytext {
 color: white;
 font-size: 20px;
 position: absolute;
