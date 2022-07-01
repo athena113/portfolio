@@ -72,5 +72,6 @@ html {
 }
 
 .projects img:hover {
-    margin: 130%;
+  top: -10px;  
+  box-shadow: 0 15px 35px 0 rgba(49,51,55,0.5); 
 }
