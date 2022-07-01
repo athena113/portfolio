@@ -85,11 +85,11 @@ transition: .5s ease;
 background-color: #FF1493;
 }
 
-.candidates container:hover .overlay {
+. container:hover .overlay {
 opacity: 1;
 }
 
-.candidates text {
+.overlaytext {
 color: white;
 font-size: 20px;
 position: absolute;
