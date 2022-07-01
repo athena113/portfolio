@@ -56,9 +56,6 @@ html {
 }
 
 div.candidates {
-  padding: 3rem;
-  line-height: 2;
-  background:white;
   position: relative;
   width: 33%;
   display: table-cell;
@@ -67,27 +64,23 @@ div.candidates {
 }
 
 .candidates img {
-  width:100%;
-  padding: 32.7px;
-  box-sizing: border-box;
-  padding-left: 0;
-  transition: 1s;  
-  display: block;
-  height: auto;
+    display: block;
+  width: 100%;
+  height: auto; 
 }
 
 
 .candidates .overlay {
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-height: 100%;
-width: 100%;
-opacity: 0;
-transition: .75s ease;
-background-color: #FF1493;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .75s ease;
+  background-color: #FF1493;
 }
 
 . candidate:hover .overlay {
@@ -95,7 +88,7 @@ opacity: 1;
 }
 
 .candidates .overlaytext {
-color: white;
+  color: white;
   font-size: 20px;
   position: absolute;
   top: 50%;
